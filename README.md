@@ -16,12 +16,12 @@ A simple chat user interface built using **Qt 6.5** and **QML**, integrated with
 - Lightweight and easily extendable
 
 ## 📁 Project Structure
-
+```
 ChatApp/
 ├── ChatUI.qml # Main QML file
 ├── main.cpp # (Optional) Qt main C++ file if using QtQuickApplication
 └── README.md
-
+```
 
 ## 🚀 Getting Started
 
@@ -29,14 +29,14 @@ ChatApp/
 
 - [Qt 6.5 or later](https://www.qt.io/download)
 - A running instance of Rasa with REST endpoint:
-  ```bash
+  ```
   rasa run --enable-api
   ```
   
 ## ✉️ API Endpoint
 Update the following line in ChatUI.qml if your Rasa server is remote or hosted differently:
-  ```bash
-   var rasaEndpoint = "http://localhost:5005/webhooks/rest/webhook";
+  ```
+  var rasaEndpoint = "http://localhost:5005/webhooks/rest/webhook";
   ```
 
 ## 🔧 Customization Ideas
@@ -49,7 +49,7 @@ Handle image or button-type messages from Rasa
 Add support for audio input/output
 
 ## 📌 Example Rasa Payload Sent
-```bash
+```
 {
   "sender": "user",
   "message": "Hello"

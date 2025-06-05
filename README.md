@@ -2,10 +2,6 @@
 
 A simple chat user interface built using **Qt 6.5** and **QML**, integrated with a Rasa backend for natural language processing.
 
-## 📸 Preview
-
-> Minimalist chat layout with user input, message history, and dynamic bot response display.
-
 ## 🛠️ Features
 
 - UI built using **Qt 6.5 Controls and Layouts**
